@@ -1,0 +1,14 @@
+{
+    "selfView":{
+        "backgroundColor":"blackColor",
+        "addSubview":[
+                      {
+                      "class":"UILabel",
+                      "textColor":[0,255,0],
+                      "font":18,
+                      "text":"DEMO",
+                      "layout":{"s":"c,m"}
+                      }
+                      ]
+    }
+}
