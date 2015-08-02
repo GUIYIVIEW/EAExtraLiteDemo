@@ -23,8 +23,6 @@
 		282498AF1B6DD1F100E6BB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		282498B21B6DD1F100E6BB11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		282498B81B6DD1F100E6BB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		282498C61B6DD1F100E6BB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		282498C71B6DD1F100E6BB11 /* EAExtraLiteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAExtraLiteDemoTests.m; sourceTree = "<group>"; };
 		282498D11B6DD26000E6BB11 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		282498D21B6DD26000E6BB11 /* EADebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EADebugWindow.h; sourceTree = "<group>"; };
 		282498D31B6DD26000E6BB11 /* EADebugWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EADebugWindow.mm; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 				282498DB1B6DD39700E6BB11 /* Resources */,
 				282498D81B6DD35800E6BB11 /* EAFramework */,
 				282498AA1B6DD1F100E6BB11 /* EAExtraLiteDemo */,
-				282498C41B6DD1F100E6BB11 /* EAExtraLiteDemoTests */,
 				282498A91B6DD1F100E6BB11 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,23 +81,6 @@
 			children = (
 				282498AC1B6DD1F100E6BB11 /* Info.plist */,
 				282498AD1B6DD1F100E6BB11 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		282498C41B6DD1F100E6BB11 /* EAExtraLiteDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				282498C71B6DD1F100E6BB11 /* EAExtraLiteDemoTests.m */,
-				282498C51B6DD1F100E6BB11 /* Supporting Files */,
-			);
-			path = EAExtraLiteDemoTests;
-			sourceTree = "<group>";
-		};
-		282498C51B6DD1F100E6BB11 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				282498C61B6DD1F100E6BB11 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -333,6 +313,7 @@
 				282498CD1B6DD1F100E6BB11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
