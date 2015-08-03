@@ -58,7 +58,6 @@
 #if DEBUG
 -(void)freshSkin
 {
-    
     //当刷新json时，此函数被调用
     //可根据实际情况，自行修改，
     
@@ -72,20 +71,6 @@
     
 #else
     //真机上调试界面
-    //            var ipfile = NSBundle.mainBundle().resourcePath!.stringByAppendingPathComponent("ip")
-    //            var ipstr = NSString(contentsOfFile: ipfile, encoding: NSUTF8StringEncoding, error: nil)
-    //            ipstr = ipstr?.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: "\n "))
-    //            var filepath = ipstr?.stringByAppendingFormat(":8000/%@.json", NSStringFromClass(self.classForCoder).componentsSeparatedByString(".").last!)
-    //            var http = CurlHttp.get(filepath as! String, param: nil, cacheSec: 0)
-    //            http.start(true, res: { (err, http, data) -> Void in
-    //                if CURLE_OK.value == err.value && data != nil {
-    //                    self.view = UIView()
-    //                    self._skinParser = SkinParser.getParserByData(data)
-    //                    self.loadView()
-    //                    self.viewDidLoad()
-    //                }
-    //            })
-    
 #endif
     
 }
