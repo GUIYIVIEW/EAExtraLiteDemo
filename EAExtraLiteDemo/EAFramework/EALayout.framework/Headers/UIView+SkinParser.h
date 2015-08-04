@@ -15,6 +15,11 @@
 @interface UIView(SkinParser)
 
 /**
+ @brief 可以给View设置一个 String类型的tag, 更具识别性。
+ */
+@property (nonatomic, strong) NSString* strTag;
+
+/**
  @key[String]:addSubview
  @value[Array]: subviews
  @brief 调用 view的 addSubview方法，添加子view
